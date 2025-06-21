@@ -1,0 +1,66 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+
+/* Additional styles for better visibility */
+h1, h2, h3, h4, h5, h6 {
+  color: #166088;
+  margin-top: 0;
+}
+
+strong {
+  color: #166088;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Ensure text is visible in light mode */
+@media (prefers-color-scheme: light) {
+  .jotto-app {
+    color: #213547;
+  }
+  
+  .guess-results td,
+  .guess-results th {
+    color: #213547;
+  }
+  
+  .guess-word {
+    color: #166088;
+  }
+  
+  .match-count {
+    color: #4cb5ae;
+  }
+}
