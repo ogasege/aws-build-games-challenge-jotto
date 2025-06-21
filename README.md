@@ -1,8 +1,6 @@
-# AWS Game Project
+# Build Games Challenge: Build Classics with Amazon Q Developer CLI Submission
 
 This repository contains classic word games reimplemented with modern web technologies. The project showcases how to build engaging, interactive games using React and other modern web frameworks.
-
-## Games Included
 
 ### Jotto Word Puzzle
 
