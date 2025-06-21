@@ -1,6 +1,6 @@
 # Jotto Word Puzzle Game
 
-A React implementation of the classic Jotto word guessing game, built with Vite.
+A React implementation of the classic Jotto word guessing game, built with modern web technologies and AWS Q Developer.
 
 ## Game Rules
 
@@ -76,6 +76,7 @@ For a detailed breakdown of the development process, see [RETRO_JOURNEY.md](./RE
 - CSS3
 - JavaScript (ES6+)
 - LocalStorage for persistence
+- AWS Q Developer
 
 ## License
 

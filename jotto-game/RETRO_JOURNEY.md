@@ -1,4 +1,4 @@
-# Retro Journey: Building a Classic Jotto Word Puzzle Game with AI Assistance
+# Retro Journey: Building a Classic Jotto Word Puzzle Game
 
 ## The Game: Why Jotto?
 
@@ -13,7 +13,7 @@ Unlike Wordle, Jotto focuses purely on letter matching without position informat
 
 ## Effective Prompting Techniques
 
-Throughout this project, I discovered several effective prompting techniques when working with AI:
+Throughout this project, I discovered several effective prompting techniques when working with AWS Q Developer:
 
 ### 1. Structured Component Creation
 
@@ -57,11 +57,23 @@ Do you want to fix the letter tracker though? it does not help me effectively
 
 These prompts led to targeted functional improvements rather than just visual changes.
 
-## How AI Handled Classic Programming Challenges
+## The Role of AWS Q Developer
+
+For this project, I used AWS Q Developer to assist with various aspects of development. This tool helped me:
+
+- Generate initial project scaffolding and component structures
+- Implement complex game logic like the letter matching algorithm
+- Create responsive CSS designs that work across different devices
+- Debug issues in the letter tracker's deduction logic
+- Refine the user experience with features like auto-scrolling and first-time user onboarding
+
+AWS Q Developer proved particularly valuable for rapidly prototyping ideas and implementing features that would have taken significantly longer to code manually. The tool's ability to understand game mechanics and translate them into working code accelerated the development process considerably.
+
+## How I Tackled Classic Programming Challenges
 
 ### State Management
 
-The AI effectively implemented React state management patterns, creating a custom hook (`useJottoGame`) that encapsulated game logic:
+I implemented React state management patterns with a custom hook (`useJottoGame`) that encapsulated game logic:
 
 ```javascript
 const useJottoGame = () => {
@@ -164,7 +176,7 @@ This implementation correctly follows Jotto rules where each unique letter is co
 
 ### Persistent Storage
 
-The AI implemented localStorage for saving game progress and high scores:
+For data persistence, I used localStorage to save game progress and high scores:
 
 ```javascript
 const loadHighScores = () => {
@@ -195,7 +207,7 @@ This implementation:
 
 ### 1. Project Scaffolding
 
-The AI automatically generated the complete project structure with a single prompt, saving hours of setup time:
+With the help of AWS Q Developer, I generated the complete project structure with a single prompt, saving hours of setup time:
 
 ```bash
 npm create vite@latest jotto-game -- --template react
@@ -209,7 +221,7 @@ This included:
 - Setting up CSS files
 - Implementing the game logic
 
-The AI created a well-organized project structure:
+The project was organized with a clean, maintainable structure:
 
 ```
 jotto-game/
@@ -239,7 +251,7 @@ jotto-game/
 
 ### 2. CSS Generation
 
-The AI generated comprehensive CSS that handled both styling and responsive design:
+I developed comprehensive CSS that handled both styling and responsive design:
 
 ```css
 /* Game Progress Styles */
@@ -300,7 +312,7 @@ The AI generated comprehensive CSS that handled both styling and responsive desi
 }
 ```
 
-This saved significant time that would have been spent on manual CSS adjustments and testing. The AI-generated CSS included:
+This saved significant time that would have been spent on manual CSS adjustments and testing. The CSS included:
 
 - A consistent color scheme using CSS variables
 - Responsive design for different screen sizes
@@ -310,7 +322,7 @@ This saved significant time that would have been spent on manual CSS adjustments
 
 ### 3. Component Creation
 
-The AI generated complete React components with proper structure, props, and state management:
+The React components were built with proper structure, props, and state management:
 
 ```jsx
 const GuessResults = ({ guesses, matches }) => {
@@ -367,7 +379,7 @@ This component demonstrates several best practices:
 - Conditional text content based on data values
 - Nested component structure for better organization
 
-## Interesting AI-Generated Solutions
+## Interesting Solutions
 
 ### 1. Improved Letter Tracker Component with Logical Deduction
 
@@ -542,7 +554,7 @@ This component cleverly uses Sets to track letter usage and provides visual feed
 
 ### 2. First-Time User Experience
 
-The AI created a sophisticated first-time user experience that detects new players and shows a welcome modal:
+I created a sophisticated first-time user experience that detects new players and shows a welcome modal:
 
 ```jsx
 const FirstTimeExperience = ({ children }) => {
@@ -769,7 +781,7 @@ The game follows traditional Jotto rules:
 
 ## Conclusion
 
-Building this Jotto word puzzle game with AI assistance demonstrated how effective AI can be for rapid prototyping and development. The AI successfully:
+Building this Jotto word puzzle game demonstrated how effective modern development tools can be for rapid prototyping and development. With AWS Q Developer's assistance, I successfully:
 
 1. Generated a complete React application structure
 2. Implemented game logic following classic Jotto rules
@@ -779,9 +791,9 @@ Building this Jotto word puzzle game with AI assistance demonstrated how effecti
 6. Implemented intelligent deduction tools like the enhanced letter tracker
 7. Added usability features like auto-scrolling guess results
 
-The final product is a fully functional Jotto game that maintains the classic gameplay while offering modern UI features and responsive design. This project shows how AI can help resurrect classic games for modern platforms while preserving their original charm and gameplay mechanics.
+The final product is a fully functional Jotto game that maintains the classic gameplay while offering modern UI features and responsive design. This project shows how modern development tools can help resurrect classic games for modern platforms while preserving their original charm and gameplay mechanics.
 
-The development process highlighted several strengths of AI-assisted development:
+The development process highlighted several strengths of using AWS Q Developer:
 - Rapid prototyping and iteration
 - Comprehensive implementation of features
 - Attention to details like accessibility and responsive design
@@ -789,7 +801,7 @@ The development process highlighted several strengths of AI-assisted development
 - Capacity to implement complex game logic and algorithms
 - Adaptability to changing requirements and feedback
 
-This retro journey demonstrates that AI can be a powerful tool for game development, especially when reviving classic games with modern implementations. The ability to quickly iterate on features and improve usability based on feedback makes AI an invaluable partner in the development process.
+This retro journey demonstrates that modern development tools can be powerful allies for game development, especially when reviving classic games with modern implementations. The ability to quickly iterate on features and improve usability based on feedback makes tools like AWS Q Developer invaluable partners in the development process.
 ### 4. UI Evaluation Requests
 
 Asking for UI evaluation led to comprehensive improvements:

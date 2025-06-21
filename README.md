@@ -1,14 +1,15 @@
-# Build Games Challenge: Build Classics with Amazon Q Developer CLI Submission
+# Build Games Challenge: Jotto Word Puzzle
 
-This repository contains classic word games reimplemented with modern web technologies. The project showcases how to build engaging, interactive games using React and other modern web frameworks.
+This repository contains a modern implementation of the classic Jotto word guessing game, built with React, Vite, and AWS Q Developer. The project showcases how to build an engaging, interactive word game using modern web technologies.
 
-### Jotto Word Puzzle
+## About Jotto
 
-A modern implementation of the classic Jotto word guessing game. In Jotto, players try to guess a secret 5-letter word and receive feedback on how many letters from their guess appear in the secret word.
+Jotto is a classic word guessing game where players try to guess a secret 5-letter word. After each guess, players receive feedback on how many letters from their guess appear in the secret word (without revealing which specific letters match or their positions).
 
-[Play Jotto](./jotto-game/)
+Unlike Wordle, Jotto focuses purely on letter matching without position information, making it a different kind of deductive challenge.
 
-#### Key Features:
+## Key Features
+
 - Interactive game board with real-time feedback
 - Letter tracker to help with deduction
 - Auto-scrolling guess history
@@ -35,12 +36,27 @@ aws-build-games-challenge-jotto/
 
 ## Getting Started
 
-Each game has its own README with specific instructions. Generally, you can:
+To run the Jotto game:
 
-1. Navigate to the game directory
-2. Install dependencies with `npm install`
-3. Start the development server with `npm run dev`
-4. Build for production with `npm run build`
+1. Navigate to the jotto-game directory:
+   ```
+   cd jotto-game
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Start the development server:
+   ```
+   npm run dev
+   ```
+
+4. Build for production:
+   ```
+   npm run build
+   ```
 
 ## Technologies Used
 
@@ -49,22 +65,16 @@ Each game has its own README with specific instructions. Generally, you can:
 - CSS3
 - JavaScript (ES6+)
 - LocalStorage for persistence
+- AWS Q Developer
 
 ## Development Process
 
-For a detailed look at how these games were developed, check out the RETRO_JOURNEY.md file in each game directory. These documents provide insights into:
+For a detailed look at how this game was developed, check out the [RETRO_JOURNEY.md](./jotto-game/RETRO_JOURNEY.md) file. This document provides insights into:
 
 - The development approach and decisions
 - Challenges faced and solutions implemented
 - AI-assisted development techniques
 - Code examples and explanations
-
-## Future Plans
-
-- Add more classic word games
-- Implement multiplayer functionality
-- Create mobile apps using React Native
-- Add more accessibility features
 
 ## License
 
