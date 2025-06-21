@@ -21,7 +21,7 @@ A modern implementation of the classic Jotto word guessing game. In Jotto, playe
 ## Project Structure
 
 ```
-aws-game/
+aws-build-games-challenge-jotto/
 ├── jotto-game/           # Jotto word puzzle implementation
 │   ├── public/           # Static assets
 │   ├── src/              # Source code
